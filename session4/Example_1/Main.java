@@ -11,13 +11,13 @@ class Main {
 
     try {
 
-      // code that generate exception
+      // code that generates an exception in this case an Arithmetic one.
       int divideByZero = 5 / 0;
       System.out.println("Rest of code in try block");
     }
     
     catch (ArithmeticException e) {
-      System.out.println("ArithmeticException => " + e.getMessage());
+      System.out.println("this is the ArithmeticException => " + e.getMessage());
     }
   }
 }
