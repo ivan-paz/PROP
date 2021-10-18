@@ -14,7 +14,7 @@ class Main {
     }
     
     finally {
-      System.out.println("This is the finally block");
+      System.out.println("This is the finally block being executed after catching the Exception");
     }
   }
 }
@@ -24,5 +24,5 @@ class Main {
 // we are dividing a number by 0 inside the try block. 
 // it generates an ArithmeticException.
 
-// The exception is caught by the catch block. 
+// The exception is "caught" by the catch block. 
 // and then the finally block is executed.
